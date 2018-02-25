@@ -37,7 +37,7 @@ import com.example.android.architecture.blueprints.todoapp.data.source.TasksRepo
  * {@link com.example.android.architecture.blueprints.todoapp.statistics.StatisticsViewModel} for
  * how to deal with more complex scenarios.
  */
-public class AddEditTaskViewModel extends AndroidViewModel implements TasksDataSource.GetTaskCallback {
+public class  AddEditTaskViewModel extends AndroidViewModel implements TasksDataSource.GetTaskCallback {
 
     public final ObservableField<String> title = new ObservableField<>();
 

@@ -111,7 +111,7 @@ public class TasksFragment extends Fragment {
 
         setupListAdapter();
 
-        setupRefreshLayout();
+        //setupRefreshLayout();
     }
 
     private void setupSnackbar() {
@@ -171,7 +171,7 @@ public class TasksFragment extends Fragment {
         listView.setAdapter(mListAdapter);
     }
 
-    private void setupRefreshLayout() {
+    /*private void setupRefreshLayout() {
         ListView listView =  mTasksFragBinding.tasksList;
         final ScrollChildSwipeRefreshLayout swipeRefreshLayout = mTasksFragBinding.refreshLayout;
         swipeRefreshLayout.setColorSchemeColors(
@@ -181,6 +181,6 @@ public class TasksFragment extends Fragment {
         );
         // Set the scrolling view in the custom SwipeRefreshLayout.
         swipeRefreshLayout.setScrollUpChild(listView);
-    }
+    }*/
 
 }
